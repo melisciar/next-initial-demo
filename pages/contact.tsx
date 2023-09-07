@@ -5,22 +5,22 @@ export default function HomePage() {
   return (
     <>
       <MainLayout>
-        <h1>Home Page</h1>
+        <h1>Contact page</h1>
         <div className="description">
           <p>
             Get started by editing&nbsp;
-            <code className="code">pages/index.tsx</code>
+            <code className="code">pages/contact.tsx</code>
           </p>
         </div>
 
         <div className="grid">
           <Link
-            href="/about"
+            href="/"
             className="card"
             rel="noopener noreferrer"
           >
             <h2>
-              Acerca <span>-&gt;</span>
+              Index <span>-&gt;</span>
             </h2>
             <p>
               Find in-depth information about Next.js features and&nbsp;API.
